@@ -5,8 +5,8 @@ int numExportedFiles = 8;
 String filename = "data.csv";
 String exportFilePath = "svg/";
 String exportFileName = "data";
-int finalWidth = 800;
-int finalHeight = 800;
+int finalWidth = 3200;
+int finalHeight = 3200;
 
 Table t;
 TableRow tr;
@@ -32,7 +32,7 @@ void setup(){
   
   println("UNSORTED DIST: " + averageDist(xyz));
   
-  xyz = distSort(xyz);
+  //xyz = distSort(xyz);
   
   println("SORTED DIST: " + averageDist(xyz));
   //**************//
