@@ -5,6 +5,8 @@ int numExportedFiles = 8;
 String filename = "data.csv";
 String exportFilePath = "svg/";
 String exportFileName = "data";
+int finalWidth = 800;
+int finalHeight = 800;
 
 Table t;
 TableRow tr;
@@ -16,6 +18,7 @@ int batchSize;
 float maxX,minX, maxY, minY;
 
 void setup(){
+  size(800,800);
   
   //**LOAD TABLE**//
   t = loadTable(filename);
@@ -34,8 +37,6 @@ void setup(){
   maxX = max(xyz[0]);
   minY = min(xyz[1]);
   maxY = max(xyz[1]);
-  
-  size(400,400);
   
   noLoop();
 }
