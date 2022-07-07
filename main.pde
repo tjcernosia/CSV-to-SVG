@@ -1,6 +1,6 @@
 import processing.svg.*;
 
-int numExportedFiles = 8;
+int numExportedFiles = 1;
 
 String filename = "data.csv";
 String exportFilePath = "svg/";
