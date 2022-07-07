@@ -32,7 +32,7 @@ void setup(){
   
   println("UNSORTED DIST: " + averageDist(xyz));
   
-  //xyz = distSort(xyz);
+  xyz = distSort(xyz);
   
   println("SORTED DIST: " + averageDist(xyz));
   //**************//
