@@ -1,6 +1,6 @@
 import processing.svg.*;
 
-int numExportedFiles = 1;
+int numExportedFiles = 2;
 
 String filename = "data.csv";
 String exportFilePath = "svg/";
@@ -32,7 +32,7 @@ void setup(){
   
   println("UNSORTED DIST: " + averageDist(xyz));
   
-  xyz = distSort(xyz);
+  //xyz = distSort(xyz);
   
   println("SORTED DIST: " + averageDist(xyz));
   //**************//
